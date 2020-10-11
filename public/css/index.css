@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.xc_box{
+    width: 1200px;
+    /* height: 550px; */
+    border: 5px inset #777777;
+    margin: 10px auto;
+    background: #f0eeee;
+}
+.title{
+    width: 100%;
+    height: 36px;
+    background: #ececec;
+    border-bottom: 1px solid grey;
+}
+.title ul{
+    float: left;
+}
+.title ul li{
+    float: left;
+    /* background: pink; */
+    /* border-right: 1px solid grey; */
+    
+}
+.title ul:first-child{
+    height: 36px;
+    border-right: 1px solid grey;
+    text-align: center;
+    line-height: 36px;
+    list-style: none; 
+    font-size: 14px;  
+}
+.title ul:first-child li{
+    width: 80px;
+    height: 36px;
+}
+.title ul:first-child li:first-child{
+    position: relative;
+}
+.title ul li:last-child{
+    border-right: none;
+}
+.title ul:first-child li:hover{
+    background: rgb(172, 172, 172);
+}
+.title #menu .two_menu{
+    border-right: none;
+    margin-top: 2px;
+    position: absolute;
+    left: 0;
+    /* top: 36px; */
+    display: none;   
+}
+.title #menu .two_menu li{
+    width: 120px;
+    height: 24px;
+    line-height: 24px;
+    background: #ececec;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    font-size: 14px;
+}
+.title #menu .two_menu li:hover{
+    background: #e6c559;
+}
+.title #menu .two_menu .three_menu_color{
+    position: absolute;
+    left: 122px;
+    top: 0px;
+    border-right: none;
+    line-height: 24px;
+    display: none;
+}
+.title #menu .two_menu .three_menu_color li{
+    width: 140px;
+    height: 24px;
+    background: lavender;
+    /* border: none; */
+}
+.title #menu .two_menu .three_menu_color li:hover{
+    background: #e6c559;
+}
+.title #menu .two_menu .three_menu_fontSize{
+    position: absolute;
+    left: 122px;
+    top: 24px;
+    border-right: none;
+    line-height: 24px;
+    display: none;
+}
+.title #menu .two_menu .three_menu_fontSize li{
+    width: 120px;
+    height: 24px;
+    background: lavender;
+    /* border: none; */
+}
+.title #menu .two_menu .three_menu_fontSize li:hover{
+    background: #e6c559;
+}
+
+
+.title ul:nth-child(2){
+    height: 36px;
+    border-right: 1px solid grey;
+    list-style: none;
+    text-align: center;
+    line-height: 36px;
+}
+.title ul:nth-child(2) li:first-child{
+    width: 440px;
+    height: 36px;
+    color: rgb(228, 78, 103);
+    font-size: 20px;
+    font-weight: 900;
+}
+.title ul:nth-child(2) li:last-child{
+    width: 220px;
+    height: 36px;
+    line-height: 44px;
+}
+#name{
+    color: red;
+    cursor: pointer;
+}
+.name_c{
+    width: 220px;
+    height: 400px;
+    background: #46d1e4;
+    position: relative;
+    display: none;
+}
+.name_c .name_c_exit{
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    border: 3px outset #f0eeee;
+    line-height: 20px;
+    background: #e6c559;
+    top: 0;
+    right: 0;
+}
+.name_c .name_c_exit:hover{
+    background: red;
+    color: #fff;
+    cursor: pointer;
+}
+.title ul:nth-child(3){
+    height: 36px;
+    list-style: none;
+    text-align: center;
+    line-height: 36px;
+}
+.title ul:nth-child(3) li{
+    width: 45px;
+    height: 36px;
+    border-right: 1px solid grey;
+}
+.title ul:nth-child(3) li:hover{
+    background: skyblue;
+}
+.title ul:nth-child(3) li:last-child{
+    width: 46px;
+    border-right: none;
+}
+.title ul:nth-child(3) li:last-child:hover{
+    color: #fff;
+    background: red;
+}
+.body{
+    width: 1180px;
+    /* height: 500px; */
+    background: #d4d2cc;
+    margin: 6px auto;
+    padding: 10px 0;
+}
+.xxc_box{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 2px inset #ececec;
+    border-radius: 10px;
+    margin-left: 100px;
+    display: none;
+}
+.inf{
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 2rem;
+    border-bottom: 2px solid red;
+    margin: 0 auto;
+    padding: 10px;
+}
+table{
+    border: 1px solid rgb(56, 55, 55);
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+table th,td{
+    height: 30px;
+}
+table th{
+    background-color: #f04545;
+    color: #fff;
+}
+table tr:nth-child(odd){
+    background: rgb(245, 232, 234);
+}
+.a a{
+    text-decoration: none;
+    color: rgb(36, 134, 134);
+}
+.a a:hover{
+    color: red;
+}
+.as a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding:  5px 20px;
+    background-color: pink;
+    color: rgb(72, 126, 226);
+    border-radius: 20px;
+}
+.as a:hover{
+    background: orchid;
+    color: red;
+}
+.tul{
+    list-style: none;
+    width: 56%;
+    height: 50px;
+    margin: 10px auto;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+.tul li{
+    margin: 5px;
+}
+.tul input{
+    width: 90%;
+    height: 30px;
+    font-size: 18px;
+    text-indent: 2rem;
+    border: 2px solid rgb(228, 78, 103);
+    border-radius: 10px;
+    outline: none;
+
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    text-indent: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+}
+#search{
+    width: 20%;
+    height: 30px;
+    margin: 10px 5px 10px 30px;
+}
+#submit_a{
+    width: 50px;
+    height: 34px;
+}
+.ul{
+    list-style: none;
+    width: 90%;
+    margin: 10px auto;
+}
+.ul li{
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    background: #ececec;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.ul li span:nth-child(1){
+    margin: 0 5px 0 50px;
+    color: red;
+}
+.ul li span:nth-child(2){
+    margin-left: 5px;
+}
+.ul li span:nth-child(3){
+    float: right;
+    margin-right: 20px;
+    color: indigo;
+}
+#form{
+    width: 50%;
+    margin: 10px auto;
+}
+
+#addt{
+    width: 520px;
+    height: 50px;
+    margin: 10px auto;
+    outline: none;
+    border-radius: 10px;
+    text-indent: 1rem;
+}
+#adda{
+    width: 520px;
+    height: 200px;
+    outline: none;
+    border-radius: 10px;
+    text-indent: 1rem;
+    font-size: 20px;
+}
+#i{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 20px;
+    background: pink;
+    outline: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/index.css">
+    <script src="../public/js/index.js"></script>
+</head>
+
+<body>
+    <div class="xc_box">
+        <!-- 标题栏 -->
+        <div class="title">
+            <!-- ul里面有菜单选项 -->
+            <ul>
+                <li id="menu">菜单
+                    <ul class="two_menu">
+                        <li id="zhuti">主题颜色
+                            <ul class="three_menu_color">
+                                <li id="color_q">浅色</li>
+                                <li id="color_s">深色</li>
+                                <li id="color_f">粉色</li>
+                                <li id="color_m">默认</li>
+                            </ul>
+                        </li>
+                        <li id="fontSize">字体大小
+                            <ul class="three_menu_fontSize">
+                                <li id="fontSizeAdd">+</li>
+                                <li id="fontSizeSub">-</li>
+                            </ul>
+                        </li>
+                        <li>测试</li>
+                        <li>测试</li>
+                        <li>测试</li>
+                        <li>测试</li>
+                    </ul>
+                </li>
+                <li>测试</li>
+                <li>测试</li>
+                <li>测试</li>
+                <li>测试</li>
+            </ul>
+            <ul>
+                <li>学生信息管理平台 version 1.0.0</li>
+                <li>管理员【<span id="name">小菜</span>】欢迎你
+                    <div class="name_c">
+                        <div class="name_c_exit">x</div>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li id="hidden">-</li>
+                <li id="scale">o</li>
+                <li id="exit">x</li>
+            </ul>
+        </div>
+        <div class="body" style="height: 400px;">
+            <h3 class="inf">添加留言<span class="as"><a href="/students">返回</a></span></h3>
+            <form action="/students/new_c" method="post" id="form">
+                昵称：<input type="text" name="name" id="addt" required>
+                <span>内容：</span><textarea name="content" cols="30" rows="10" required minlength="5" id="adda"></textarea>
+                <input type="submit" value="发表" id="i">
+            </form>
+        </div>
+    </div>
+    <div class="xxc_box">小菜平台</div>
+
+</body>
+
+</html>
